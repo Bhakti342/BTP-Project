@@ -44,14 +44,23 @@ Place your input images in the data/ directory. The data should follow the folde
 Example folder structure:
 
 data/
+
 ├── earthquake/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 ├── land slide/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 ├── wild_fire/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
 
 ### 4. Running the Classifier
