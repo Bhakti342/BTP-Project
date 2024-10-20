@@ -25,15 +25,16 @@ cd BTP_Project
 ### 2. Install Dependencies
 Make sure you have Python 3.8+ installed. The project uses a virtual environment in the imageclassification/ folder, activate it and install the required dependencies manually.
 Activate the virtual environment:
--For Windows (Command Prompt):
+
+- For Windows (Command Prompt):
 ```bash
 imageclassification\Scripts\activate.bat
 ```
--For Windows (PowerShell):
+- For Windows (PowerShell):
 ```bash
 imageclassification\Scripts\Activate.ps1
 ```
--For Linux/Mac:
+- For Linux/Mac:
 ```bash
 source imageclassification/Scripts/activate
 ```
@@ -41,15 +42,25 @@ source imageclassification/Scripts/activate
 ### 3. Prepare the Data
 Place your input images in the data/ directory. The data should follow the folder structure based on natural disaster types like earthquake, land slide, and wild_fire.
 Example folder structure:
+
 data/
+
 ├── earthquake/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 ├── land slide/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 ├── wild_fire/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
 
 ### 4. Running the Classifier
